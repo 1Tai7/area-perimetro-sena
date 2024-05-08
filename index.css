@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 2rem 2rem;
+}
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contenedor section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #c3a6e9;
+  padding: 1.5rem;
+  margin: 1rem;
+  width: 10rem;
+}
+.contenedor .triangulo-contenedor {
+  height: 14rem;
+}
+.contenedor .rectangulo-contenedor {
+  height: 12rem;
+}
+.contenedor .cuadrado-contenedor {
+  height: 10rem;
+}
+.contenedor .circulo-contenedor {
+  height: 10rem;
+}
+.contenedor section div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contenedor .resultados {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor section input {
+  width: 5rem;
+}
+
+.contenedor .button {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
